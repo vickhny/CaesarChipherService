@@ -29,13 +29,13 @@ An example response might be:
  “plaintext” : “THISISASECRETMESSAGE”
 }
 ```
-* Notes:
-• All input and output messages are in upper case, with no spaces.
-• The Caesar cipher shift used by you enemies changes between messages, but it is
+## Notes:
+* All input and output messages are in upper case, with no spaces.
+* The Caesar cipher shift used by you enemies changes between messages, but it is
 always the same for a given cipher text.
-• Your enemies may be aware of what you are trying to do and may try to confuse
+* Your enemies may be aware of what you are trying to do and may try to confuse
 your algorithm, but they are not smart enough to choose another cipher.
-• You are certain that all of the cribs provided do appear in the plaintext.
+* You are certain that all of the cribs provided do appear in the plaintext.
 
 
 ## My Implementation
