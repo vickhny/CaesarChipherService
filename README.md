@@ -7,7 +7,8 @@ plaintext message.
 
 * Your challenge is to write a Java microservice that attempts to crack the Caesar cipher used
 by your enemies. It should accept the input as a JSON POST on the path /decrypt.
-Your service will be passed JSON containing:
+
+* Your service will be passed JSON containing:
  1. The encrypted ciphertext.
  2. The list of plaintext snippets, or “cribs”.
 
