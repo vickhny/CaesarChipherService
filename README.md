@@ -14,7 +14,7 @@
 
 ## To test API by running it locally you can use attached postman collection.
 ```
-?
+https://github.com/vickhny/CaesarChipherService/blob/main/CaesarCipher.postman_collection.json
 ```
 
 
