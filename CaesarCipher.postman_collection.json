@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "d6dd7adc-1821-4dce-b8a3-5bf3cdbae6db",
+		"name": "CaesarCipher",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "DecryptCipherText",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n \"ciphertext\" : \"VJKUKUCUGETGVOGUUCIG\",\n \"cribs\" : [\"THI\", \"MES\"]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/oodle/decrypt",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"oodle",
+						"decrypt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EncryptCipherText",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"plaintext\": \"THISISASECRETMESSAGE\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/oodle/encrypt",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"oodle",
+						"encrypt"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
