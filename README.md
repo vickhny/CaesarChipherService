@@ -60,7 +60,7 @@ https://github.com/vickhny/CaesarChipherService/blob/main/CaesarCipher.postman_c
 ```
 POST http://localhost:8080/oodle/decrypt
 Accept: application/json
-Content-Type: application/octet-stream
+Content-Type: application/json
 ```
 
 
@@ -68,7 +68,7 @@ Content-Type: application/octet-stream
 ```
 POST http://localhost:8080/oodle/encrypt
 Accept: application/json
-Content-Type: application/octet-stream
+Content-Type: application/json
 ```
 
 
